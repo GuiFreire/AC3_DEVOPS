@@ -22,7 +22,7 @@ def func_primos():
 
         num += 1
 
-        return lista
+        return str(lista)
 
 
 if __name__ == "__main__":
