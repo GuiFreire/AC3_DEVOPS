@@ -1,0 +1,85 @@
+2020-04-13T23:29:27.769372+00:00 app[api]: Initial release by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:29:27.769372+00:00 app[api]: Release v1 created by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:29:27.981374+00:00 app[api]: Enable Logplex by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:29:27.981374+00:00 app[api]: Release v2 created by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:29:41.000000+00:00 app[api]: Build started by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:30:09.562622+00:00 app[api]: Scaled to web@1:Free by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:30:09.542924+00:00 app[api]: Deploy 7bc1e98a by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:30:09.542924+00:00 app[api]: Release v3 created by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:30:14.888893+00:00 heroku[web.1]: State changed from starting to up
+2020-04-13T23:30:14.604634+00:00 app[web.1]: * Running on http://0.0.0.0:54957/ (Press CTRL+C to quit)
+2020-04-13T23:30:18.000000+00:00 app[api]: Build succeeded
+2020-04-13T23:30:34.088837+00:00 heroku[router]: at=info method=GET path="/" host=peaceful-beach-06607.herokuapp.com request_id=4b8c3a2e-a440-4995-bdb2-2c5ff23c8f5c fwd="177.62.27.206" dyno=web.1 connect=0ms service=18ms status=500 bytes=450 protocol=https
+2020-04-13T23:30:34.087162+00:00 app[web.1]: [2020-04-13 23:30:34,084] ERROR in app: Exception on / [GET]
+2020-04-13T23:30:34.087171+00:00 app[web.1]: Traceback (most recent call last):
+2020-04-13T23:30:34.087172+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+2020-04-13T23:30:34.087173+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-04-13T23:30:34.087174+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+2020-04-13T23:30:34.087174+00:00 app[web.1]: return self.finalize_request(rv)
+2020-04-13T23:30:34.087175+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1630, in finalize_request
+2020-04-13T23:30:34.087175+00:00 app[web.1]: response = self.make_response(rv)
+2020-04-13T23:30:34.087176+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1740, in make_response
+2020-04-13T23:30:34.087176+00:00 app[web.1]: rv = self.response_class.force_type(rv, request.environ)
+2020-04-13T23:30:34.087176+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/wrappers.py", line 921, in force_type
+2020-04-13T23:30:34.087177+00:00 app[web.1]: response = BaseResponse(*_run_wsgi_app(response, environ))
+2020-04-13T23:30:34.087177+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/wrappers.py", line 59, in _run_wsgi_app
+2020-04-13T23:30:34.087178+00:00 app[web.1]: return _run_wsgi_app(*args)
+2020-04-13T23:30:34.087178+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/test.py", line 923, in run_wsgi_app
+2020-04-13T23:30:34.087179+00:00 app[web.1]: app_rv = app(environ, start_response)
+2020-04-13T23:30:34.087179+00:00 app[web.1]: TypeError: 'list' object is not callable
+2020-04-13T23:30:34.087508+00:00 app[web.1]: 10.9.226.141 - - [13/Apr/2020 23:30:34] "GET / HTTP/1.1" 500 -
+2020-04-13T23:34:02.000000+00:00 app[api]: Build started by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:34:31.324554+00:00 app[api]: Deploy ef2dc484 by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:34:31.324554+00:00 app[api]: Release v4 created by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:34:35.701734+00:00 heroku[web.1]: Restarting
+2020-04-13T23:34:35.705909+00:00 heroku[web.1]: State changed from up to starting
+2020-04-13T23:34:39.000000+00:00 app[api]: Build succeeded
+2020-04-13T23:34:44.287071+00:00 app[web.1]: * Running on http://0.0.0.0:57653/ (Press CTRL+C to quit)
+2020-04-13T23:34:45.046666+00:00 heroku[web.1]: State changed from starting to up
+2020-04-13T23:34:52.728077+00:00 heroku[router]: at=info method=GET path="/" host=peaceful-beach-06607.herokuapp.com request_id=26c2fa03-b313-447e-a300-c1958c3d41b4 fwd="177.62.27.206" dyno=web.1 connect=92ms service=41ms status=200 bytes=156 protocol=https
+2020-04-13T23:34:52.722682+00:00 app[web.1]: 10.31.72.133 - - [13/Apr/2020 23:34:52] "GET / HTTP/1.1" 200 -
+2020-04-13T23:34:53.473005+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=peaceful-beach-06607.herokuapp.com request_id=81752904-3362-4fba-b526-2408a9f05363 fwd="177.62.27.206" dyno=web.1 connect=32ms service=48ms status=404 bytes=380 protocol=https
+2020-04-13T23:34:53.469654+00:00 app[web.1]: 10.102.241.133 - - [13/Apr/2020 23:34:53] "GET /favicon.ico HTTP/1.1" 404 -
+2020-04-13T23:37:07.000000+00:00 app[api]: Build started by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:37:28.577932+00:00 app[api]: Release v5 created by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:37:28.577932+00:00 app[api]: Deploy f0a1fe08 by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:37:29.540900+00:00 heroku[web.1]: Restarting
+2020-04-13T23:37:29.555960+00:00 heroku[web.1]: State changed from up to starting
+2020-04-13T23:37:34.828686+00:00 heroku[web.1]: State changed from starting to up
+2020-04-13T23:37:34.800243+00:00 app[web.1]: * Running on http://0.0.0.0:41856/ (Press CTRL+C to quit)
+2020-04-13T23:37:37.000000+00:00 app[api]: Build succeeded
+2020-04-13T23:37:54.789276+00:00 heroku[router]: at=info method=GET path="/" host=peaceful-beach-06607.herokuapp.com request_id=e8adef3c-d13a-4c81-88e5-3bbd721558a8 fwd="177.62.27.206" dyno=web.1 connect=1ms service=5ms status=500 bytes=450 protocol=https
+2020-04-13T23:37:54.785165+00:00 app[web.1]: [2020-04-13 23:37:54,784] ERROR in app: Exception on / [GET]
+2020-04-13T23:37:54.785179+00:00 app[web.1]: Traceback (most recent call last):
+2020-04-13T23:37:54.785237+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+2020-04-13T23:37:54.785238+00:00 app[web.1]: response = self.full_dispatch_request()
+2020-04-13T23:37:54.785239+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+2020-04-13T23:37:54.785240+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2020-04-13T23:37:54.785240+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+2020-04-13T23:37:54.785240+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2020-04-13T23:37:54.785240+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+2020-04-13T23:37:54.785241+00:00 app[web.1]: raise value
+2020-04-13T23:37:54.785242+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+2020-04-13T23:37:54.785242+00:00 app[web.1]: rv = self.dispatch_request()
+2020-04-13T23:37:54.785242+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+2020-04-13T23:37:54.785243+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2020-04-13T23:37:54.785243+00:00 app[web.1]: File "ac02devops.py", line 25, in func_primos
+2020-04-13T23:37:54.785255+00:00 app[web.1]: return ', '.join(lista)
+2020-04-13T23:37:54.785255+00:00 app[web.1]: TypeError: sequence item 0: expected str instance, int found
+2020-04-13T23:37:54.785446+00:00 app[web.1]: 10.186.202.203 - - [13/Apr/2020 23:37:54] "GET / HTTP/1.1" 500 -
+2020-04-13T23:37:55.482310+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=peaceful-beach-06607.herokuapp.com request_id=79ce240c-f0b0-47bc-bbb6-ced16d629eee fwd="177.62.27.206" dyno=web.1 connect=0ms service=20ms status=404 bytes=380 protocol=https
+2020-04-13T23:37:55.478696+00:00 app[web.1]: 10.91.151.49 - - [13/Apr/2020 23:37:55] "GET /favicon.ico HTTP/1.1" 404 -
+2020-04-13T23:41:20.000000+00:00 app[api]: Build started by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:41:41.919444+00:00 heroku[web.1]: Restarting
+2020-04-13T23:41:41.923799+00:00 heroku[web.1]: State changed from up to starting
+2020-04-13T23:41:41.726850+00:00 app[api]: Deploy b380260e by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:41:41.726850+00:00 app[api]: Release v6 created by user guilherme.cezarino@aluno.faculdadeimpacta.com.br
+2020-04-13T23:41:47.184281+00:00 heroku[web.1]: State changed from starting to up
+2020-04-13T23:41:47.100823+00:00 app[web.1]: * Running on http://0.0.0.0:36499/ (Press CTRL+C to quit)
+2020-04-13T23:41:50.000000+00:00 app[api]: Build succeeded
+2020-04-13T23:42:07.421075+00:00 app[web.1]: 10.30.61.229 - - [13/Apr/2020 23:42:07] "GET / HTTP/1.1" 200 -
+2020-04-13T23:42:07.423948+00:00 heroku[router]: at=info method=GET path="/" host=peaceful-beach-06607.herokuapp.com request_id=26364b2a-f070-4f67-b9bd-157840ab2943 fwd="177.62.27.206" dyno=web.1 connect=0ms service=5ms status=200 bytes=631 protocol=https
+2020-04-13T23:42:40.965766+00:00 heroku[router]: at=info method=GET path="/" host=peaceful-beach-06607.herokuapp.com request_id=76c1ff46-e4da-4de6-a284-0f25b89c734b fwd="177.62.27.206" dyno=web.1 connect=1ms service=4ms status=200 bytes=631 protocol=https
+2020-04-13T23:42:40.963551+00:00 app[web.1]: 10.11.241.172 - - [13/Apr/2020 23:42:40] "GET / HTTP/1.1" 200 -
+2020-04-13T23:42:50.830571+00:00 app[web.1]: 10.61.152.114 - - [13/Apr/2020 23:42:50] "GET / HTTP/1.1" 200 -
+2020-04-13T23:42:50.838091+00:00 heroku[router]: at=info method=GET path="/" host=peaceful-beach-06607.herokuapp.com request_id=83f0232a-1a2b-4bc5-8d0e-2b45dcb2d3fe fwd="66.102.7.179" dyno=web.1 connect=1ms service=7ms status=200 bytes=631 protocol=https
