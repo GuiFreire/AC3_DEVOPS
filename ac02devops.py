@@ -7,22 +7,22 @@ app = Flask(__name__)
 @app.route('/')
 def func_primos():
 
-    count = 1
-    num = 3
-    primos = "2,"
-    while (count <= 100):
+    cont = 0
+    num = 2
+    lista = []
+    while (cont <= 100):
         normal = False
         for i in range(2, num):
             if (num % i == 0):
                 normal = True
                 break
-
         if (not normal):
-            count += 1
-            primos = primos + str(num) + ","
+            cont += 1
+            lista.append(num)
 
-    num += 1
-    return primos
+        num += 1
+
+        return lista
 
 
 if __name__ == "__main__":
